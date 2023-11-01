@@ -60,12 +60,12 @@ function App() {
             {toDelete?.length > 0 ? (
               <>
                 <input className="mr-2 scale-125" type="checkbox" checked />
-                <span className="text-xl font-semibold">
+                <span className="text-xl font-semibold text-black">
                   {toDelete?.length} Files Selected
                 </span>
               </>
             ) : (
-              <span className="text-xl font-semibold">Gallery</span>
+              <span className="text-xl font-semibold text-black">Gallery</span>
             )}
           </div>
           <div
